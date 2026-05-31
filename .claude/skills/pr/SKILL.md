@@ -89,3 +89,4 @@ Follow the same Conventional Commits format used for commits:
 - Do not include "Co-Authored-By" in the PR description (that belongs in commits)
 - If the branch has a Linear/Jira ticket ID in its name (e.g. `feat/ENG-42-...`), reference the ticket number in the Summary
 - Target `develop` if it exists on remote, otherwise `main` — never assume
+- Never pass `--delete-branch` when merging — branches are preserved after merge unless the user explicitly asks to delete them
